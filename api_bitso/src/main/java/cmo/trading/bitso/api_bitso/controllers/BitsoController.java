@@ -1,4 +1,4 @@
-package cmo.trading.bitso.api_bitso.controllers.bitso;
+package cmo.trading.bitso.api_bitso.controllers;
 
 import java.util.List;
 
