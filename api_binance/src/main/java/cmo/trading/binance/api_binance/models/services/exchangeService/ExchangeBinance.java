@@ -15,7 +15,7 @@ import cmo.trading.binance.api_binance.models.services.IServices.Exchange;
 import cmo.trading.binance.api_binance.models.services.httpService.HTTPServiceBinance;
 
 
-@Service("Bitso")
+@Service("Binance")
 public class ExchangeBinance implements Exchange {
     public static final String SYMBOL_BTC_USD = "btc_usd";
     public static final String SYMBOL_XRP_USD = "xrp_usd";
