@@ -18,7 +18,7 @@ import cmo.trading.binance.api_binance.models.services.IServices.IHTTPMethods;
 @Service
 public class HTTPServiceBinance extends HTTPService implements IHTTPMethods {
     
-    private static final String BASE_URL = "https://api.bitso.com";
+    private static final String BASE_URL = "https://api.binance.com";
 
     @Autowired
     private Credential credential;
