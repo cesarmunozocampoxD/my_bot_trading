@@ -27,4 +27,6 @@ public interface Exchange {
             throws Exception;
 
     ArrayList<ArrayList<String>> getKLines(String symbol, String interval, String limit) throws Exception;
+
+    public Float getMediaMovil(String symbol, String interval, String limit) throws Exception;
 }
